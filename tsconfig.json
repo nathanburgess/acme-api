@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": ".",
+    "resolveJsonModule": true
+  },
+  "include": ["."],
+  "exclude": ["node_modules"],
+}
